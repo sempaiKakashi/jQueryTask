@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<h2>My favourite framework is React,js</h2>
+	<p>In computing, React (sometimes React.js or ReactJS) is a JavaScript library for building user interfaces. It is maintained by Facebook, Instagram and a community of individual developers and corporations. React can be used in the development of single-page applications and mobile applications. It aims primarily to provide speed, simplicity, and scalability. As a user interface library, React is often used in conjunction with other libraries such as Redux.</p>
+	<div id='trolled'></div>
+	<script>
+	setTimeout(function(){
+    $('h2')
+        .text('Bamboozled! The favourite one is Laravel');
+   $('p')
+        .text('Laravel is a free, open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the model–view–controller (MVC) architectural pattern and based on Symfony. Some of the features of Laravel are a modular packaging system with a dedicated dependency manager, different ways for accessing relational databases, utilities that aid in application deployment and maintenance, and its orientation toward syntactic sugar.');
+}, 6000);
+	setTimeout(function(){
+       $('#trolled').html('<p><img width="480" src="https://blog.ukrnames.com/wp-content/uploads/2018/03/104290009-GettyImages-126106038.1910x1000-1024x536-840x536.jpg" alt="awesome citten"></p>');
+    }, 6000);
+</script>
+</body>
+</html>
